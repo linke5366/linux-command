@@ -38,10 +38,12 @@ tail(选项)(参数)
 ### 实例  
 
 ```
+tail -f /logs/erp.log （显示日志文件）
 tail file （显示文件file的最后10行）
 tail -n +20 file （显示文件file的内容，从第20行至文件末尾）
 tail -c 10 file （显示文件file的最后10个字符）
 ```
+
 
 
 <!-- Linux命令行搜索引擎：https://jaywcjlove.github.io/linux-command/ -->
