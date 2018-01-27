@@ -35,6 +35,10 @@ lsof(选项)
 ### 实例  
 
 ```
+lsof -i:8090
+COMMAND   PID USER   FD   TYPE            DEVICE SIZE/OFF NODE NAME
+java    92551  nan   46u  IPv6 0x1a5e1be03d91a0d      0t0  TCP *:8090 (LISTEN)
+
 lsof
 command     PID USER   FD      type             DEVICE     SIZE       NODE NAME
 init          1 root  cwd       DIR                8,2     4096          2 /
